@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn import svm
 
 # loading the diabetes dataset to a pandas DataFrame
-diabetes_dataset = pd.read_csv('/Users/shaik.davoodumar/Desktop/ hh/diabetes.csv')
+diabetes_dataset = pd.read_csv('diabetes.csv')
 
 # separating the data and labels
 X = diabetes_dataset.drop(columns='Outcome', axis=1)
